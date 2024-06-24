@@ -1,0 +1,19 @@
+1.) What questions do you have about the data?
+- Are there any specific data points or metrics that are currently missing but would be valuable for our analysis?
+- How frequently is the data updated, and what processes are in place to ensure its accuracy?
+
+2.) How did you discover the data quality issues?
+- Data quality issues were discovered through comprehensive data validation checks during the transformation process. We used Pandas to identify missing, inconsistent, and duplicate data.
+
+3.) What do you need to know to resolve the data quality issues?
+- Information on current data entry processes and validation rules.
+- Access to raw data sources to cross-verify and correct discrepancies.
+
+4.) What other information would you need to help you optimize the data assets you're trying to create?
+- Detailed user behavior data and feedback.
+- Market and competitor data for contextual benchmarking.
+
+5.) What performance and scaling concerns do you anticipate in production and how do you plan to address them?
+- Data Volume Growth: Plan to use indexing and partitioning strategies.
+- Real-Time Processing: Considering scalable database solutions like PostgreSQL or NoSQL databases.
+- Scalability: Implementing cloud-based solutions for scalable storage and compute power.
